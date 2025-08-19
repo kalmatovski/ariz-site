@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "news": "News",
+    "partners": "Partners",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Supply Chain Solutions",
+    "subtitle": "Ariz Group is your trusted partner in supply chain solutions. We provide comprehensive services, including sourcing, procurement, expediting, and inspection, ensuring high-quality products are delivered on time and within budget. Our expertise extends to shipment consolidation, export packing, and handling export formalities, streamlining your logistics. With a customer-focused approach, we enhance your operational efficiency and support your business growth. Partner with us today!",
+    "explore": "Explore"
+  },
+  "services": {
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "Supply of only 100% genuine and original consumables and spares in original packaging"
+    },
+    "logistics": {
+      "title": "Logistic Solutions",
+      "description": "Logistic solutions by air, sea, road from EXW to DDP in remote locations"
+    },
+    "warehousing": {
+      "title": "Global Warehousing",
+      "description": "Partnering with warehouses around the world, makes us cost and time effective when it comes to collect parts from different suppliers"
+    },
+    "export": {
+      "title": "Export Solutions",
+      "description": "Partnering with import-export companies around the world helps us to pass export barriers for some suppliers that can not export directly"
+    },
+    "alternatives": {
+      "title": "Product Alternatives",
+      "description": "We find solutions for discontinued products - find the best quality alternative with technical specifications that meets your requirements or with OEM products if you want"
+    }
+  },
+  "about": {
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Founded in 2003, SCS Tech began as a vision to bridge the gap between traditional supply chain management and cutting-edge technology. What started as a small team of engineers and logistics experts has grown into a global powerhouse, serving clients across six continents.",
+      "paragraph2": "Today, we continue to push the boundaries of what's possible in supply chain innovation, leveraging AI, IoT, and blockchain technologies to create solutions that not only meet today's challenges but anticipate tomorrow's opportunities."
+    },
+    "title": "About Us",
+    "mission": "Our Mission",
+    "values": "Our Values",
+    "experience": "Our Experience"
+  },
+  "products": {
+    "title": "Products",
+    "requestQuote": "Request Quote",
+    "customSolution": "Need a Custom Solution?",
+    "customDescription": "Our team of experts can develop tailored solutions to meet your specific industry requirements. From concept to implementation, we're here to support your success.",
+    "getQuote": "Get Custom Quote",
+    "learnAboutUs": "Learn About Us",
+    "chemicals": {
+      "title": "Chemicals",
+      "items": [
+        "Froth Flotation Reagents",
+        "Flocculants",
+        "Xanthates",
+        "MIBC & Frothers",
+        "SMBS & Caustic Soda",
+        "Copper Sulphate(blue vitriol)"
+      ]
+    },
+    "machinery": {
+      "title": "Mining Machinery Spare Parts",
+      "items": [
+        "Mining tyres",
+        "Motor Spare Parts"
+      ]
+    },
+    "supplies": {
+      "title": "Mining Supplies",
+      "items": [
+        "Steel Grinding Balls",
+        "Ceramic Beads",
+        "Grinding Cylpebs",
+        "Grinding Rods"
+      ]
+    },
+    "other": {
+      "title": "Other Mining Products",
+      "items": [
+        "Hardware Products",
+        "Software Products",
+        "Industrial Tools",
+        "Electronics"
+      ]
+    },
+    "hydropower": {
+      "title": "Hydro-Power Plants",
+      "items": [
+        "pipes",
+        "flanges",
+        "valves",
+        "reducer tee",
+        "LR elbow"
+      ]
+    }
+  },
+  "news": {
+    "title": "News & Updates"
+  },
+  "partners": {
+    "title": "Our Partners"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "follow": "Follow us:"
+  }
+}
