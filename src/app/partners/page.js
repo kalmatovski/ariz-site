@@ -259,7 +259,7 @@ export default function Partners() {
                     ))}
                   </div>
                   <blockquote className="text-muted-foreground mb-6 leading-relaxed italic">
-                    "{testimonial.quote}"
+                    &ldquo;{testimonial.quote}&rdquo;
                   </blockquote>
                   <div className="border-t border-border pt-4">
                     <div className="font-semibold text-foreground">{testimonial.author}</div>

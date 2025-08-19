@@ -51,8 +51,8 @@ export default function NotFound() {
               Oops! Page Not Found
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              The page you're looking for seems to have wandered off into the digital void. 
-              Don't worry, even the best supply chains have occasional misrouted packages!
+              The page you&rsquo;re looking for seems to have wandered off into the digital void. 
+              Don&rsquo;t worry, even the best supply chains have occasional misrouted packages!
             </p>
           </motion.div>
 
