@@ -1,50 +1,65 @@
-"use client";
+'use client'
 
-import { motion } from "framer-motion";
-import Link from "next/link";
-import Image from "next/image";
-import { useSafeTranslation } from "@/hooks/useSafeTranslation";
-import { Github, Twitter, Linkedin, Mail } from "lucide-react";
-import logoImage from "@/assets/images/logo_chain.png";
+import { motion } from 'framer-motion'
+import Link from 'next/link'
+import Image from 'next/image'
+import { useSafeTranslation } from '@/hooks/useSafeTranslation'
+import { Github, Twitter, Linkedin, Mail } from 'lucide-react'
+import logoImage from '@/assets/images/logo_chain.png'
 
 const Footer = () => {
-  const { t } = useSafeTranslation();
+  const { t } = useSafeTranslation()
 
   const socialLinks = [
-    { icon: Twitter, href: "#", label: "Twitter" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Mail, href: "#", label: "Email" },
-  ];
+    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Github, href: '#', label: 'GitHub' },
+    { icon: Mail, href: '#', label: 'Email' },
+  ]
 
   const footerLinks = [
     {
       title: t('nav.about'),
       links: [
-        { name: t('about.mission'), href: "/about#mission" },
-        { name: t('about.values'), href: "/about#values" },
-        { name: t('about.experience'), href: "/about#experience" },
-      ]
+        { name: t('about.mission'), href: '/about#mission' },
+        { name: t('about.values'), href: '/about#values' },
+        { name: t('about.experience'), href: '/about#experience' },
+      ],
     },
     {
       title: t('nav.products'),
       links: [
-        { name: t('products.chemicals.title') || 'Chemicals', href: "/products#chemicals" },
-        { name: t('products.machinery.title') || 'Mining Machinery', href: "/products#machinery" },
-        { name: t('products.supplies.title') || 'Mining Supplies', href: "/products#supplies" },
-        { name: t('products.other.title') || 'Other Products', href: "/products#other" },
-        { name: t('products.hydropower.title') || 'Hydro-Power', href: "/products#hydropower" },
-      ]
+        {
+          name: t('products.chemicals.title') || 'Chemicals',
+          href: '/products#chemicals',
+        },
+        {
+          name: t('products.machinery.title') || 'Mining Machinery',
+          href: '/products#machinery',
+        },
+        {
+          name: t('products.supplies.title') || 'Mining Supplies',
+          href: '/products#supplies',
+        },
+        {
+          name: t('products.other.title') || 'Other Products',
+          href: '/products#other',
+        },
+        {
+          name: t('products.hydropower.title') || 'Hydro-Power',
+          href: '/products#hydropower',
+        },
+      ],
     },
     {
       title: t('nav.contact'),
       links: [
-        { name: t('contact.address'), href: "/contact#address" },
-        { name: t('contact.phone'), href: "/contact#phone" },
-        { name: t('contact.email'), href: "/contact#email" },
-      ]
-    }
-  ];
+        { name: t('contact.address'), href: '/contact#address' },
+        { name: t('contact.phone'), href: '/contact#phone' },
+        { name: t('contact.email'), href: '/contact#email' },
+      ],
+    },
+  ]
 
   return (
     <footer className="relative bg-background-secondary border-t border-border">
@@ -53,7 +68,7 @@ const Footer = () => {
         <div className="absolute -top-40 -right-40 w-80 h-80 rounded-full bg-neon-blue/5 blur-3xl" />
         <div className="absolute -bottom-40 -left-40 w-80 h-80 rounded-full bg-neon-cyan/5 blur-3xl" />
       </div>
-      
+
       <div className="relative container mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand section */}
@@ -77,11 +92,11 @@ const Footer = () => {
                 </div>
               </Link>
               <p className="text-muted-foreground text-sm leading-relaxed">
-                Comprehensive solutions across multiple industries with cutting-edge technology 
-                and unmatched quality standards.
+                Comprehensive solutions across multiple industries with
+                cutting-edge technology and unmatched quality standards.
               </p>
             </motion.div>
-            
+
             {/* Social links */}
             <div className="flex space-x-4">
               {socialLinks.map((social, index) => (
@@ -146,7 +161,7 @@ const Footer = () => {
         </motion.div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

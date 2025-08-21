@@ -1,10 +1,10 @@
-"use client";
+'use client'
 
-import { motion } from "framer-motion";
-import { Home, ArrowLeft, Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import TechCard from "@/components/ui/tech-card";
+import { motion } from 'framer-motion'
+import { Home, ArrowLeft, Search } from 'lucide-react'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
+import TechCard from '@/components/ui/tech-card'
 
 export default function NotFound() {
   return (
@@ -34,7 +34,7 @@ export default function NotFound() {
               transition={{
                 duration: 3,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: 'easeInOut',
               }}
               className="w-32 h-1 bg-gradient-primary mx-auto rounded-full"
             />
@@ -51,8 +51,9 @@ export default function NotFound() {
               Oops! Page Not Found
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              The page you&rsquo;re looking for seems to have wandered off into the digital void. 
-              Don&rsquo;t worry, even the best supply chains have occasional misrouted packages!
+              The page you&rsquo;re looking for seems to have wandered off into
+              the digital void. Don&rsquo;t worry, even the best supply chains
+              have occasional misrouted packages!
             </p>
           </motion.div>
 
@@ -64,15 +65,18 @@ export default function NotFound() {
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
             <Link href="/">
-              <Button size="lg" className="bg-gradient-primary hover:shadow-glow-lg">
+              <Button
+                size="lg"
+                className="bg-gradient-primary hover:shadow-glow-lg"
+              >
                 <Home className="mr-2 h-5 w-5" />
                 Back to Home
               </Button>
             </Link>
-            
-            <Button 
-              variant="outline" 
-              size="lg" 
+
+            <Button
+              variant="outline"
+              size="lg"
               className="border-primary/50 hover:border-primary hover:bg-primary/10"
               onClick={() => window.history.back()}
             >
@@ -93,10 +97,10 @@ export default function NotFound() {
               </h2>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 {[
-                  { name: "Products", href: "/products" },
-                  { name: "About Us", href: "/about" },
-                  { name: "Partners", href: "/partners" },
-                  { name: "Contact", href: "/contact" }
+                  { name: 'Products', href: '/products' },
+                  { name: 'About Us', href: '/about' },
+                  { name: 'Partners', href: '/partners' },
+                  { name: 'Contact', href: '/contact' },
                 ].map((link, index) => (
                   <motion.div
                     key={link.name}
@@ -105,8 +109,8 @@ export default function NotFound() {
                     transition={{ delay: 1 + index * 0.1, duration: 0.4 }}
                   >
                     <Link href={link.href}>
-                      <Button 
-                        variant="ghost" 
+                      <Button
+                        variant="ghost"
                         className="w-full hover:bg-primary/20 hover:text-primary transition-all duration-300"
                       >
                         {link.name}
@@ -128,7 +132,7 @@ export default function NotFound() {
               transition={{
                 duration: 6,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: 'easeInOut',
               }}
               className="absolute top-1/4 left-1/4 w-16 h-16 rounded-full bg-neon-blue/10 blur-xl"
             />
@@ -140,7 +144,7 @@ export default function NotFound() {
               transition={{
                 duration: 8,
                 repeat: Infinity,
-                ease: "easeInOut"
+                ease: 'easeInOut',
               }}
               className="absolute bottom-1/4 right-1/4 w-24 h-24 rounded-full bg-neon-cyan/10 blur-xl"
             />
@@ -148,5 +152,5 @@ export default function NotFound() {
         </motion.div>
       </div>
     </div>
-  );
+  )
 }
