@@ -34,6 +34,36 @@
       "description": "We find solutions for discontinued products - find the best quality alternative with technical specifications that meets your requirements or with OEM products if you want"
     }
   },
+  "solutions": {
+    "card1": {
+      "title": "Successful Supply of Drilling Equipment and Spare Parts to KAZ Minerals Bozymchak LLC",
+      "description": "We are pleased to share that we have successfully supplied drilling equipment and spare parts to KAZ Minerals Bozymchak LLC. These essential products will support the efficiency and reliability of their mining operations. We would like to express our sincere gratitude to KAZ Minerals Bozymchak LLC for their trust in our expertise and products. Being part of this important venture is a privilege, and we are committed to providing ongoing support. We look forward to continued partnership and are excited to contribute to the long-term success of KAZ Minerals Bozymchak LLC."
+    },
+    "card2": {
+      "title": "Successful Supply and Commissioning of Laboratory Equipment at Manas University",
+      "description": "We are pleased to announce the successful supply, commissioning, and installation of laboratory equipment at Manas University. This delivery includes cutting-edge scientific instruments, and our team also provided comprehensive training to faculty and staff to ensure effective usage. We extend our sincere gratitude to Manas University for their trust in our services and are committed to delivering high-quality, reliable support. This partnership marks the beginning of a promising collaboration, and we look forward to a long-term relationship that enhances academic and research capabilities at the university."
+    },
+    "card3": {
+      "title": "Proud Partnership with Chemonics International Inc. in Kyrgyz Republic",
+      "description": "We are delighted to announce that we have successfully supplied an advanced apricot washing and processing machine to Chemonics International Inc. in the Kyrgyz Republic. This machine is specially designed to enhance the efficiency, quality, and safety of apricot processing, supporting the local agricultural sector. We extend our sincere thanks to Chemonics International Inc. for entrusting us with this project. Their commitment to sustainable agriculture in the Kyrgyz Republic resonates with our values, and we are honored to contribute to this meaningful initiative. We look forward to more partnerships that drive positive impact worldwide."
+    },
+    "card4": {
+      "title": "Official Distributor of MTG Mining Products in Kyrgyzstan",
+      "description": "We are excited to announce that we have become the official distributor of MTG's renowned mining product range in Kyrgyzstan. MTG is a global leader specializing in the design and manufacture of premium ground engaging tools, crafted for mining, construction, and dredging machinery. This partnership allows us to bring MTG's innovative and high-quality solutions to the Kyrgyz market, supporting clients with tools that enhance efficiency and durability in tough operational environments. We are proud to work with MTG and look forward to delivering top-tier products to meet the growing needs of the region."
+    },
+    "card5": {
+      "title": "Successful Supply of Grinding Balls to Etibakir Tereksai LLC Mining Company",
+      "description": "We are excited to share the successful delivery of grinding balls in various diameters to Etibakir Tereksai LLC, a leading mining company. This supply supports the company's ongoing mining operations, enhancing efficiency and reliability. We extend our sincere thanks to Etibakir Tereksai LLC for their trust in our products and services, and we are committed to providing consistent, high-quality support. We look forward to a long-term cooperation that will contribute to the company's growth and operational success in the mining sector."
+    },
+    "card6": {
+      "title": "Successful Supply of 1-Meter Diameter Steel Pipes for Tugol-Sai Water Reservoir",
+      "description": "We are proudly announcing the successful supply of 1-meter diameter steel pipes for the Tugol-Sai water reservoir project. These high-quality pipes are crucial for ensuring the efficiency and durability of the water supply infrastructure. We extend our sincere gratitude to the project team for their trust in our products and services. We are honored to be part of this important project and are committed to delivering reliable, top-notch materials. We are excited to see the positive impact of this project and look forward to further collaboration in the future."
+    },
+    "card7": {
+      "title": "Official Distribution Partnership with Turkish Guneybaglilar Company in Kyrgyzstan",
+      "description": "We are proud to announce that we have become the official distributor of Turkish Guneybaglilar Company in Kyrgyzstan, a leading manufacturer of Isuzu and Mitsubishi spare parts. This partnership enables us to offer high-quality, reliable spare parts to our clients across the country. We are excited to provide enhanced service and support to businesses and individuals in need of premium automotive components. With this new collaboration, we look forward to serving our clients with top-notch products and contributing to the automotive industry's growth and efficiency in Kyrgyzstan."
+    }
+  },
   "about": {
     "story": {
       "title": "Our Story",
